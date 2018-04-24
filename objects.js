@@ -10,3 +10,5 @@ updatePlaylist(playlist, "Drake", "Hotline Bling");
 function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName
 }
+
+removeFromPlaylist(playlist, "Beyonce");
